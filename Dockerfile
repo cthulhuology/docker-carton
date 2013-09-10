@@ -1,4 +1,9 @@
+# perl-carton
+#
+# VERSION 0.1
+
 FROM centos
+MAINTAINER Dave Goehrig dave@dloh.org
 RUN yum -y groupinstall "Development Tools"
 RUN curl -L http://install.perlbrew.pl | bash
 RUN echo "source ~/perl5/perlbrew/etc/bashrc" >> ~/.bash_profile
