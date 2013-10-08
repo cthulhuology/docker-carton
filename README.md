@@ -27,6 +27,8 @@ And build out your Carton packaged perl application.
 
 Let's say you want to build a Mojolicous application
 
+	mkdir myapp
+	cd myapp
 	echo "requires \"Mojolicious\";" >> cpanfile
 	carton
 	carton exec local/bin/mojo generate lite_app
